@@ -1,1 +1,21 @@
-{}
+{
+  "17ee203a-c761-4117-9d0b-2340c80df84c": {
+    "connectionParameters": {
+      "accountName": "dlsg2case02"
+    },
+    "connectionRef": {
+      "authenticationType": "keyBasedAuth",
+      "displayName": "Armazenamento de Blob do Azure",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1613/1.0.1613.3125/azureblob/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_azureblob",
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_azureblob/connections/42a4932411084911b0e9a8587c3ba7bd"
+    },
+    "datasets": {},
+    "dataSources": [
+      "ArmazenamentodeBlobdoAzure"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "17ee203a-c761-4117-9d0b-2340c80df84c"
+  }
+}

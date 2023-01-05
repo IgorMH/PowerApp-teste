@@ -4,16 +4,36 @@
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
+    "AddMediaButton2": 57,
+    "AddMediaWithImage2": 58,
     "App": 1,
-    "Button1": 5,
-    "Component1": 4,
-    "Screen1": 3
+    "Body2": 51,
+    "Button1": 4,
+    "Button2": 59,
+    "Component1": 3,
+    "Gallery3": 32,
+    "Gallery4": 42,
+    "galleryTemplate3": 33,
+    "galleryTemplate4": 43,
+    "Label1": 54,
+    "Label2": 55,
+    "NextArrow6": 40,
+    "NextArrow8": 52,
+    "Separator6": 41,
+    "Separator8": 53,
+    "Subtitle6": 50,
+    "TelaEnvio": 5,
+    "Title6": 39,
+    "Title8": 49,
+    "UploadedImage2": 56
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/05/2023 17:39:49",
+  "HeaderLastSavedDateTimeUTC": "01/05/2023 19:14:03",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "17ee203a-c761-4117-9d0b-2340c80df84c": "\"/providers/microsoft.powerapps/apis/shared_azureblob/connections/42a4932411084911b0e9a8587c3ba7bd\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -23,36 +43,90 @@
   "OrderComponentTemplate": {
     "5d8e4f98707d42eb91208e0792a438f9": 0
   },
-  "OrderDataSource": {},
-  "OrderGroupControls": {},
+  "OrderDataSource": {
+    "ArmazenamentodeBlobdoAzure": 0,
+    "CustomGallerySample": 1
+  },
+  "OrderGroupControls": {
+    "AddMediaWithImage2": {
+      "AddMediaButton2": 1,
+      "UploadedImage2": 0
+    }
+  },
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 0
+    "addMedia": 2,
+    "button": 6,
+    "gallery": 3,
+    "icon": 4,
+    "image": 1,
+    "label": 0,
+    "rectangle": 5
   },
   "OverridablePropertiesEntry": {
+    "AddMediaButton2": {},
+    "AddMediaWithImage2": {},
     "App": {},
+    "Body2": {},
     "Button1": {},
+    "Button2": {},
     "Component1": {},
-    "Screen1": {}
+    "Gallery3": {},
+    "Gallery4": {},
+    "galleryTemplate3": {},
+    "galleryTemplate4": {},
+    "Label1": {},
+    "Label2": {},
+    "NextArrow6": {},
+    "NextArrow8": {},
+    "Separator6": {},
+    "Separator8": {},
+    "Subtitle6": {},
+    "TelaEnvio": {},
+    "Title6": {},
+    "Title8": {},
+    "UploadedImage2": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PublishOrderIndices": {
+    "AddMediaButton2": 3,
+    "AddMediaWithImage2": 1,
     "App": 0,
-    "Button1": 0,
+    "Body2": 15,
+    "Button1": 18,
+    "Button2": 17,
     "Component1": 0,
-    "Screen1": 0
+    "Gallery3": 4,
+    "Gallery4": 10,
+    "galleryTemplate3": 5,
+    "galleryTemplate4": 11,
+    "Label1": 0,
+    "Label2": 9,
+    "NextArrow6": 6,
+    "NextArrow8": 14,
+    "Separator6": 8,
+    "Separator8": 16,
+    "Subtitle6": 13,
+    "TelaEnvio": 0,
+    "Title6": 7,
+    "Title8": 12,
+    "UploadedImage2": 2
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0499175,
+    "AnalysisLoadTime": 0.067538,
     "ControlCount": {
+      "5d8e4f98707d42eb91208e0792a438f9": 1,
+      "button": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.5711692,
-    "ErrorCount": 0
+    "DeserializationLoadTime": 0.8972267,
+    "ErrorCount": 3
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
