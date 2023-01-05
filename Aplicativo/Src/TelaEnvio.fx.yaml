@@ -1,12 +1,12 @@
 TelaEnvio As screen:
 
     "Gallery3 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
-        Height: =195
+        Height: =267
         Items: =ArmazenamentodeBlobdoAzure.ListRootFolderV2().value
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(96, Self.Height - 60)
-        Width: =1366
+        Width: =916
         Y: =67
         ZIndex: =1
 
@@ -53,8 +53,8 @@ TelaEnvio As screen:
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
-        Width: =1366
-        Y: =366
+        Width: =916
+        Y: =452
         ZIndex: =1
 
         Title8 As label:
@@ -129,18 +129,18 @@ TelaEnvio As screen:
         Height: =67
         Size: =30
         Text: ="Selecione um conteiner"
-        Width: =1366
+        Width: =916
         ZIndex: =2
 
     Label2 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(0, 18, 107, 1)
-        Height: =77
+        Height: =67
         Size: =30
-        Text: ="Arquivos"
-        Width: =1366
-        Y: =289
+        Text: ="Arquivos do conteiner selecionado"
+        Width: =916
+        Y: =376
         ZIndex: =3
 
     Button2 As button:
@@ -149,8 +149,8 @@ TelaEnvio As screen:
         Size: =25
         Text: ="Enviar"
         Width: =268
-        X: =993
-        Y: =628
+        X: =1023
+        Y: =366
         ZIndex: =7
 
     AddMediaWithImage1 As group:
@@ -174,7 +174,7 @@ TelaEnvio As screen:
             Height: =140
             Size: =25
             Text: ="Clique para adicionar um arquivo"
-            X: =519
-            Y: =628
+            X: =993
+            Y: =67
             ZIndex: =10
 
