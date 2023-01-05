@@ -70,6 +70,7 @@
       "reverttooldpowerautomate": false,
       "rtlinstudiopreview": false,
       "rtlsupport": false,
+      "supportcolumnnamesasidentifiers": false,
       "tabledoesntwraprecords": false,
       "untypedobject": false,
       "usedisplaynamemetadata": true,
@@ -79,7 +80,7 @@
       "useguiddatatypes": true,
       "usenonblockingonstartrule": true,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "ContainsThirdPartyPcfControls": false,
