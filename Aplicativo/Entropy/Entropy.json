@@ -29,7 +29,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/05/2023 19:55:20",
+  "HeaderLastSavedDateTimeUTC": "01/05/2023 19:58:07",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "17ee203a-c761-4117-9d0b-2340c80df84c": "\"/providers/microsoft.powerapps/apis/shared_azureblob/connections/42a4932411084911b0e9a8587c3ba7bd\""
@@ -56,13 +56,13 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "addMedia": 1,
+    "addMedia": 5,
     "button": 6,
-    "gallery": 3,
-    "icon": 4,
-    "image": 2,
+    "gallery": 1,
+    "icon": 2,
+    "image": 4,
     "label": 0,
-    "rectangle": 5
+    "rectangle": 3
   },
   "OverridablePropertiesEntry": {
     "AddMediaButton1": {},
@@ -90,28 +90,28 @@
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PublishOrderIndices": {
-    "AddMediaButton1": 0,
-    "AddMediaWithImage1": 0,
+    "AddMediaButton1": 16,
+    "AddMediaWithImage1": 14,
     "App": 0,
-    "Body2": 13,
-    "Button1": 16,
-    "Button2": 15,
+    "Body2": 12,
+    "Button1": 18,
+    "Button2": 17,
     "Component1": 0,
     "Gallery3": 1,
-    "Gallery4": 8,
+    "Gallery4": 7,
     "galleryTemplate3": 2,
-    "galleryTemplate4": 9,
+    "galleryTemplate4": 8,
     "Label1": 0,
-    "Label2": 7,
+    "Label2": 6,
     "NextArrow6": 3,
-    "NextArrow8": 12,
+    "NextArrow8": 11,
     "Separator6": 5,
-    "Separator8": 14,
-    "Subtitle6": 11,
+    "Separator8": 13,
+    "Subtitle6": 10,
     "TelaEnvio": 0,
     "Title6": 4,
-    "Title8": 10,
-    "UploadedImage1": 0
+    "Title8": 9,
+    "UploadedImage1": 15
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
