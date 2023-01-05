@@ -14,163 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "TelaEnvio.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "TelaEnvio.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 62,
-                  "snippet": {
-                    "text": "ComparatorSADataset"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "TelaEnvio",
-                "type": "TelaEnvio.Button2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ComparatorSADataset"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "TelaEnvio.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "TelaEnvio.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 83,
-                  "snippet": {
-                    "text": "AddMediaWithImage"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "TelaEnvio",
-                "type": "TelaEnvio.Button2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "AddMediaWithImage"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "TelaEnvio.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "TelaEnvio.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 100,
-                  "snippet": {
-                    "text": ".Image"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "TelaEnvio",
-                "type": "TelaEnvio.Button2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "TelaEnvio.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "TelaEnvio.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 107,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ArmazenamentodeBlobdoAzure.CreateFile(Gallery3.Selected.Name; ComparatorSADataset; AddMediaWithImage.Image)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "TelaEnvio",
-                "type": "TelaEnvio.Button2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "CreateFile"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "TelaEnvio.Gallery3.AccessibleLabel"
                 }
               ],
@@ -194,7 +37,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -224,7 +67,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -254,7 +97,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -284,7 +127,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -314,7 +157,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 0
         }
       ],
       "tool": {
@@ -322,51 +165,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "app-ErrInvalidName",
-              "messageStrings": {
-                "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidDot",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid use of '.'"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidArgs-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {

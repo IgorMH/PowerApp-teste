@@ -4,32 +4,32 @@
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
-    "AddMediaButton1": 27,
-    "AddMediaWithImage1": 28,
+    "AddMediaButton1": 21,
+    "AddMediaWithImage1": 23,
     "App": 1,
-    "Body2": 20,
+    "Body2": 18,
     "Button1": 4,
     "Button2": 22,
     "Component1": 3,
-    "Gallery3": 9,
-    "Gallery4": 15,
-    "galleryTemplate3": 10,
-    "galleryTemplate4": 16,
+    "Gallery3": 7,
+    "Gallery4": 13,
+    "galleryTemplate3": 8,
+    "galleryTemplate4": 14,
     "Label1": 6,
-    "Label2": 14,
-    "NextArrow6": 11,
-    "NextArrow8": 19,
-    "Separator6": 13,
-    "Separator8": 21,
-    "Subtitle6": 18,
+    "Label2": 12,
+    "NextArrow6": 9,
+    "NextArrow8": 17,
+    "Separator6": 11,
+    "Separator8": 19,
+    "Subtitle6": 16,
     "TelaEnvio": 5,
-    "Title6": 12,
-    "Title8": 17,
-    "UploadedImage1": 26
+    "Title6": 10,
+    "Title8": 15,
+    "UploadedImage1": 20
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/05/2023 19:58:07",
+  "HeaderLastSavedDateTimeUTC": "01/05/2023 20:12:58",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "17ee203a-c761-4117-9d0b-2340c80df84c": "\"/providers/microsoft.powerapps/apis/shared_azureblob/connections/42a4932411084911b0e9a8587c3ba7bd\""
@@ -119,7 +119,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2392593,
+    "AnalysisLoadTime": 0.2651563,
     "ControlCount": {
       "5d8e4f98707d42eb91208e0792a438f9": 1,
       "addMedia": 1,
@@ -133,8 +133,8 @@
       "rectangle": 2,
       "screen": 1
     },
-    "DeserializationLoadTime": 2.1916587,
-    "ErrorCount": 4
+    "DeserializationLoadTime": 0.9974736,
+    "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
