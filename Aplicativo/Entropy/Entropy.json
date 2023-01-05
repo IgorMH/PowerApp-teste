@@ -4,32 +4,32 @@
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
-    "AddMediaButton2": 57,
-    "AddMediaWithImage2": 58,
+    "AddMediaButton1": 27,
+    "AddMediaWithImage1": 28,
     "App": 1,
-    "Body2": 51,
+    "Body2": 20,
     "Button1": 4,
-    "Button2": 59,
+    "Button2": 22,
     "Component1": 3,
-    "Gallery3": 32,
-    "Gallery4": 42,
-    "galleryTemplate3": 33,
-    "galleryTemplate4": 43,
-    "Label1": 54,
-    "Label2": 55,
-    "NextArrow6": 40,
-    "NextArrow8": 52,
-    "Separator6": 41,
-    "Separator8": 53,
-    "Subtitle6": 50,
+    "Gallery3": 9,
+    "Gallery4": 15,
+    "galleryTemplate3": 10,
+    "galleryTemplate4": 16,
+    "Label1": 6,
+    "Label2": 14,
+    "NextArrow6": 11,
+    "NextArrow8": 19,
+    "Separator6": 13,
+    "Separator8": 21,
+    "Subtitle6": 18,
     "TelaEnvio": 5,
-    "Title6": 39,
-    "Title8": 49,
-    "UploadedImage2": 56
+    "Title6": 12,
+    "Title8": 17,
+    "UploadedImage1": 26
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/05/2023 19:14:03",
+  "HeaderLastSavedDateTimeUTC": "01/05/2023 19:55:20",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "17ee203a-c761-4117-9d0b-2340c80df84c": "\"/providers/microsoft.powerapps/apis/shared_azureblob/connections/42a4932411084911b0e9a8587c3ba7bd\""
@@ -48,25 +48,25 @@
     "CustomGallerySample": 1
   },
   "OrderGroupControls": {
-    "AddMediaWithImage2": {
-      "AddMediaButton2": 1,
-      "UploadedImage2": 0
+    "AddMediaWithImage1": {
+      "AddMediaButton1": 1,
+      "UploadedImage1": 0
     }
   },
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "addMedia": 2,
+    "addMedia": 1,
     "button": 6,
     "gallery": 3,
     "icon": 4,
-    "image": 1,
+    "image": 2,
     "label": 0,
     "rectangle": 5
   },
   "OverridablePropertiesEntry": {
-    "AddMediaButton2": {},
-    "AddMediaWithImage2": {},
+    "AddMediaButton1": {},
+    "AddMediaWithImage1": {},
     "App": {},
     "Body2": {},
     "Button1": {},
@@ -86,32 +86,32 @@
     "TelaEnvio": {},
     "Title6": {},
     "Title8": {},
-    "UploadedImage2": {}
+    "UploadedImage1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PublishOrderIndices": {
-    "AddMediaButton2": 3,
-    "AddMediaWithImage2": 1,
+    "AddMediaButton1": 0,
+    "AddMediaWithImage1": 0,
     "App": 0,
-    "Body2": 15,
-    "Button1": 18,
-    "Button2": 17,
+    "Body2": 13,
+    "Button1": 16,
+    "Button2": 15,
     "Component1": 0,
-    "Gallery3": 4,
-    "Gallery4": 10,
-    "galleryTemplate3": 5,
-    "galleryTemplate4": 11,
+    "Gallery3": 1,
+    "Gallery4": 8,
+    "galleryTemplate3": 2,
+    "galleryTemplate4": 9,
     "Label1": 0,
-    "Label2": 9,
-    "NextArrow6": 6,
-    "NextArrow8": 14,
-    "Separator6": 8,
-    "Separator8": 16,
-    "Subtitle6": 13,
+    "Label2": 7,
+    "NextArrow6": 3,
+    "NextArrow8": 12,
+    "Separator6": 5,
+    "Separator8": 14,
+    "Subtitle6": 11,
     "TelaEnvio": 0,
-    "Title6": 7,
-    "Title8": 12,
-    "UploadedImage2": 2
+    "Title6": 4,
+    "Title8": 10,
+    "UploadedImage1": 0
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
@@ -119,14 +119,22 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.067538,
+    "AnalysisLoadTime": 0.2392593,
     "ControlCount": {
       "5d8e4f98707d42eb91208e0792a438f9": 1,
-      "button": 1,
+      "addMedia": 1,
+      "button": 2,
+      "gallery": 2,
+      "galleryTemplate": 2,
+      "group": 1,
+      "icon": 2,
+      "image": 1,
+      "label": 6,
+      "rectangle": 2,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.8972267,
-    "ErrorCount": 3
+    "DeserializationLoadTime": 2.1916587,
+    "ErrorCount": 4
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

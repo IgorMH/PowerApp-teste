@@ -23,10 +23,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 1,
-                  "charOffset": 60,
+                  "charLength": 19,
+                  "charOffset": 62,
                   "snippet": {
-                    "text": ","
+                    "text": "ComparatorSADataset"
                   }
                 }
               },
@@ -39,15 +39,14 @@
           ],
           "message": {
             "arguments": [
-              "Error",
-              "ParenClose"
+              "ComparatorSADataset"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -64,10 +63,50 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 1,
-                  "charOffset": 60,
+                  "charLength": 17,
+                  "charOffset": 83,
                   "snippet": {
-                    "text": ","
+                    "text": "AddMediaWithImage"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "TelaEnvio",
+                "type": "TelaEnvio.Button2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "AddMediaWithImage"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TelaEnvio.Button2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "TelaEnvio.Button2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 100,
+                  "snippet": {
+                    "text": ".Image"
                   }
                 }
               },
@@ -84,7 +123,7 @@
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrBadToken",
+          "ruleId": "app-ErrInvalidDot",
           "ruleIndex": 1
         },
         {
@@ -101,10 +140,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 1,
-                  "charOffset": 37,
+                  "charLength": 107,
+                  "charOffset": 0,
                   "snippet": {
-                    "text": "("
+                    "text": "ArmazenamentodeBlobdoAzure.CreateFile(Gallery3.Selected.Name; ComparatorSADataset; AddMediaWithImage.Image)"
                   }
                 }
               },
@@ -117,16 +156,14 @@
           ],
           "message": {
             "arguments": [
-              "1",
-              "3",
-              "4"
+              "CreateFile"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrBadArityRange",
+          "ruleId": "app-ErrInvalidArgs-Func",
           "ruleIndex": 2
         },
         {
@@ -254,19 +291,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "TelaEnvio.AddMediaButton2.AccessibleLabel"
+                  "fullyQualifiedName": "TelaEnvio.AddMediaButton1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "TelaEnvio.AddMediaButton2.AccessibleLabel",
+                  "fullyQualifiedName": "TelaEnvio.AddMediaButton1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "TelaEnvio",
-                "type": "TelaEnvio.AddMediaButton2"
+                "type": "TelaEnvio.AddMediaButton1"
               }
             }
           ],
@@ -286,16 +323,16 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "app-ErrExpectedFound-Ex-Fnd",
+              "id": "app-ErrInvalidName",
               "messageStrings": {
                 "issue": {
-                  "text": "Unexpected characters. The formula contains '{0}' where '{1}' is expected."
+                  "text": "Name isn't valid. '{0}' isn't recognized."
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Remove or replace the unexpected characters with an expected character."
+                  "Remove or correct the reference to the name that isn't valid."
                 ],
                 "level": "High",
                 "primaryCategory": "formula",
@@ -303,27 +340,24 @@
               }
             },
             {
-              "id": "app-ErrBadToken",
+              "id": "app-ErrInvalidDot",
               "messageStrings": {
                 "issue": {
-                  "text": "Unexpected characters. Characters are used in the formula in an unexpected way."
+                  "text": "Invalid use of '.'"
                 }
               },
               "properties": {
                 "componentType": "app",
-                "howToFix": [
-                  "Remove or replace the unexpected characters."
-                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
               }
             },
             {
-              "id": "app-ErrBadArityRange",
+              "id": "app-ErrInvalidArgs-Func",
               "messageStrings": {
                 "issue": {
-                  "text": "Invalid number of arguments: received {0}, expected {1}-{2}."
+                  "text": "The function '{0}' has some invalid arguments."
                 }
               },
               "properties": {

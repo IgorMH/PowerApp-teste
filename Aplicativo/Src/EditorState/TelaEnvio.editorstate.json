@@ -1,6 +1,6 @@
 {
   "ControlStates": {
-    "AddMediaButton2": {
+    "AddMediaButton1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "BorderColor",
@@ -40,6 +40,14 @@
           "InvariantPropertyName": "Text",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "ChangePictureText",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "HasDynamicProperties": false,
@@ -51,13 +59,18 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%AddMedia.ID%",
-      "Name": "AddMediaButton2",
-      "ParentIndex": 2,
+      "Name": "AddMediaButton1",
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
           "Category": "Data",
           "PropertyName": "Text",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "ChangePictureText",
           "RuleProviderType": "Unknown"
         },
         {
@@ -214,7 +227,7 @@
       "StyleName": "defaultAddMediaStyle",
       "Type": "ControlInfo"
     },
-    "AddMediaWithImage2": {
+    "AddMediaWithImage1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "X",
@@ -232,7 +245,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "AddMediaWithImage2",
+      "Name": "AddMediaWithImage1",
       "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -3114,7 +3127,7 @@
       "StyleName": "titleLabelStyle",
       "Type": "ControlInfo"
     },
-    "UploadedImage2": {
+    "UploadedImage1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -3163,8 +3176,8 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%Image.ID%",
-      "Name": "UploadedImage2",
-      "ParentIndex": 1,
+      "Name": "UploadedImage1",
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

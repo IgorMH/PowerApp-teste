@@ -145,36 +145,37 @@ TelaEnvio As screen:
         Y: =309
         ZIndex: =3
 
-    AddMediaWithImage2 As group:
+    Button2 As button:
+        Height: =86
+        OnSelect: =ArmazenamentodeBlobdoAzure.CreateFile(Gallery3.Selected.Name, ComparatorSADataset, AddMediaWithImage.Image)
+        Size: =25
+        Text: ="Enviar"
+        Width: =268
+        X: =328
+        Y: =666
+        ZIndex: =7
+
+    AddMediaWithImage1 As group:
         Height: =5
         Width: =5
         X: =60
         Y: =60
-        ZIndex: =4
+        ZIndex: =8
 
-        UploadedImage2 As image:
-            Height: =AddMediaButton2.Height
-            Image: =If(IsBlank(AddMediaButton2.Media), SampleImage, AddMediaButton2.Media)
+        UploadedImage1 As image:
+            Height: =AddMediaButton1.Height
+            Image: =If(IsBlank(AddMediaButton1.Media), SampleImage, AddMediaButton1.Media)
             ImagePosition: =ImagePosition.Fill
-            Width: =AddMediaButton2.Width
-            X: =AddMediaButton2.X
-            Y: =AddMediaButton2.Y
-            ZIndex: =5
+            Width: =AddMediaButton1.Width
+            X: =AddMediaButton1.X
+            Y: =AddMediaButton1.Y
+            ZIndex: =9
 
-        AddMediaButton2 As addMedia:
+        AddMediaButton1 As addMedia:
+            ChangePictureText: ="Alterar arquivo"
+            Height: =140
             Size: =25
             Text: ="Clique para adicionar um arquivo"
-            X: =857
-            Y: =60
-            ZIndex: =6
-
-    Button2 As button:
-        Height: =106
-        OnSelect: =ArmazenamentodeBlobdoAzure.CreateFile(Gallery3.Selected.Name, 'ComparatorSADataset', AddMediaWithImage.Image)
-        Size: =25
-        Text: ="Enviar"
-        Width: =328
-        X: =857
-        Y: =399
-        ZIndex: =7
+            Y: =628
+            ZIndex: =10
 
