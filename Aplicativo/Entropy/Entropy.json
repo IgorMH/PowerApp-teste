@@ -29,7 +29,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/06/2023 13:49:10",
+  "HeaderLastSavedDateTimeUTC": "01/06/2023 14:56:04",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "17ee203a-c761-4117-9d0b-2340c80df84c": "\"/providers/microsoft.powerapps/apis/shared_azureblob/connections/42a4932411084911b0e9a8587c3ba7bd\""
@@ -37,6 +37,7 @@
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
+  "OldLogoFileName": "hkvq1cdk.jpg",
   "OrderComponentMetadata": {
     "5d8e4f98707d42eb91208e0792a438f9": 0
   },
@@ -119,7 +120,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2228569,
+    "AnalysisLoadTime": 0.2272253,
     "ControlCount": {
       "5d8e4f98707d42eb91208e0792a438f9": 1,
       "addMedia": 1,
@@ -133,7 +134,7 @@
       "rectangle": 2,
       "screen": 1
     },
-    "DeserializationLoadTime": 2.0399991,
+    "DeserializationLoadTime": 1.8895366,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
