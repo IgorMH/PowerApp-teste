@@ -145,7 +145,7 @@ TelaEnvio As screen:
 
     Button2 As button:
         Height: =86
-        OnSelect: =ArmazenamentodeBlobdoAzure.CreateFile(Gallery3.Selected.Name, "ComparatorSADataset", UploadedImage1.Image)
+        OnSelect: =ArmazenamentodeBlobdoAzure.CreateFile(Gallery3.Selected.Name, "ComparatorSADataset.csv", UploadedImage1.Image)
         Size: =25
         Text: ="Enviar"
         Width: =268
