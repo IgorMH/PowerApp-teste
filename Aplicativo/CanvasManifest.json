@@ -103,9 +103,9 @@
   },
   "PublishInfo": {
     "AppName": "Part Comparator",
-    "BackgroundColor": "rgba(0, 13, 75, 1)",
+    "BackgroundColor": "rgba(0, 18, 107, 1)",
     "IconColor": "RGBA(255,255,255,1)",
-    "IconName": "Settings",
+    "IconName": "",
     "LogoFileName": "logo.jpg",
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
@@ -113,6 +113,7 @@
     "UserLocale": "pt-BR"
   },
   "ScreenOrder": [
+    "Screen1",
     "TelaEnvio"
   ]
 }

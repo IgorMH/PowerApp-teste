@@ -1,6 +1,6 @@
 {
   "ComponentIndexes": {
-    "Component1": 1
+    "Component1": 2
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -19,6 +19,7 @@
     "Label2": 12,
     "NextArrow6": 9,
     "NextArrow8": 17,
+    "Screen1": 24,
     "Separator6": 11,
     "Separator8": 19,
     "Subtitle6": 16,
@@ -29,7 +30,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/06/2023 14:56:04",
+  "HeaderLastSavedDateTimeUTC": "01/09/2023 14:16:24",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "17ee203a-c761-4117-9d0b-2340c80df84c": "\"/providers/microsoft.powerapps/apis/shared_azureblob/connections/42a4932411084911b0e9a8587c3ba7bd\""
@@ -37,7 +38,7 @@
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
-  "OldLogoFileName": "hkvq1cdk.jpg",
+  "OldLogoFileName": "jx2rrlcl.jpg",
   "OrderComponentMetadata": {
     "5d8e4f98707d42eb91208e0792a438f9": 0
   },
@@ -81,6 +82,7 @@
     "Label2": {},
     "NextArrow6": {},
     "NextArrow8": {},
+    "Screen1": {},
     "Separator6": {},
     "Separator8": {},
     "Subtitle6": {},
@@ -106,6 +108,7 @@
     "Label2": 6,
     "NextArrow6": 3,
     "NextArrow8": 11,
+    "Screen1": 0,
     "Separator6": 5,
     "Separator8": 13,
     "Subtitle6": 10,
@@ -120,7 +123,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2272253,
+    "AnalysisLoadTime": 0.2270226,
     "ControlCount": {
       "5d8e4f98707d42eb91208e0792a438f9": 1,
       "addMedia": 1,
@@ -134,7 +137,7 @@
       "rectangle": 2,
       "screen": 1
     },
-    "DeserializationLoadTime": 1.8895366,
+    "DeserializationLoadTime": 3.7381871,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
