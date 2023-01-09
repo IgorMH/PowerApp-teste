@@ -1,2 +1,16 @@
 TelaInicial As screen:
+    BackgroundImage: ='MicrosoftTeams-image'
+
+    Button3 As button:
+        BorderThickness: =0
+        Fill: =RGBA(43, 43, 43, 1)
+        Font: =Font.Georgia
+        Height: =45
+        OnSelect: =Navigate(TelaEnvio, Fade)
+        Text: ="Iniciar Aplicativo"
+        Tooltip: ="Iniciar aplicativo"
+        Width: =228
+        X: =112
+        Y: =480
+        ZIndex: =2
 
