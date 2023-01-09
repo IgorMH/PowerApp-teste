@@ -6,6 +6,7 @@ TelaEnvio As screen:
         BorderThickness: =0
         Fill: =RGBA(246, 88, 16, 1)
         Height: =86
+        HoverFill: =ColorFade(Self.BorderColor, 20%)
         OnSelect: =ArmazenamentodeBlobdoAzure.CreateFile("/source/", "ComparatorSADataset.csv", UploadedImage1.Image)
         Size: =40
         Text: ="  Enviar"
@@ -22,6 +23,8 @@ TelaEnvio As screen:
         ZIndex: =8
 
         UploadedImage1 As image:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
             Height: =AddMediaButton1.Height
             Image: =If(IsBlank(AddMediaButton1.Media), SampleImage, AddMediaButton1.Media)
             ImagePosition: =ImagePosition.Fill
@@ -31,6 +34,8 @@ TelaEnvio As screen:
             ZIndex: =9
 
         AddMediaButton1 As addMedia:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
             ChangePictureText: ="Alterar arquivo"
             Color: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(246, 88, 16, 1)

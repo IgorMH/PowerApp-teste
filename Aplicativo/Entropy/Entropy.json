@@ -4,22 +4,22 @@
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
-    "AddMediaButton1": 22,
-    "AddMediaWithImage1": 24,
+    "AddMediaButton1": 10,
+    "AddMediaWithImage1": 13,
     "App": 1,
     "Button1": 4,
-    "Button2": 23,
-    "Button3": 27,
+    "Button2": 11,
+    "Button3": 6,
     "Component1": 3,
-    "Icon1": 25,
-    "Icon2": 26,
-    "TelaEnvio": 6,
+    "Icon1": 8,
+    "Icon2": 12,
+    "TelaEnvio": 7,
     "TelaInicial": 5,
-    "UploadedImage1": 21
+    "UploadedImage1": 9
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/09/2023 15:07:33",
+  "HeaderLastSavedDateTimeUTC": "01/09/2023 15:13:55",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "17ee203a-c761-4117-9d0b-2340c80df84c": "\"/providers/microsoft.powerapps/apis/shared_azureblob/connections/42a4932411084911b0e9a8587c3ba7bd\""
@@ -30,8 +30,8 @@
     "MicrosoftTeams-image (1)": "9c6f93d8-6cb8-4f2e-a9f2-8bd878990774.png"
   },
   "LocalResourceRootPaths": {
-    "MicrosoftTeams-image": "https://docserverpwaprodwus.blob.core.windows.net/c8cab91b-a5ff-4aa9-aa1d-ed28ad64ec29-1/resource/4692cc5d-f5eb-44c4-97a3-e83067104cf1.png?sv=2017-04-17&sr=b&sig=tOm6jdM0L3XG%2B6i%2FM3TvyWUj6iIFJuHcaGBvbQWra1I%3D&spr=https&se=2023-01-10T14%3A50%3A22Z&sp=r",
-    "MicrosoftTeams-image (1)": "https://docserverpwaprodwus.blob.core.windows.net/c8cab91b-a5ff-4aa9-aa1d-ed28ad64ec29-1/resource/fbee7a19-d448-484b-9bcb-52aa1d93393d.png?sv=2017-04-17&sr=b&sig=LulNKokqoJsa4ClpU9FsKHDwoTz18itoL8n8e%2BNtOWw%3D&spr=https&se=2023-01-10T15%3A05%3A37Z&sp=r"
+    "MicrosoftTeams-image": "https://docserverpwaprodwus.blob.core.windows.net/079f5a69-b072-4367-a7c3-42674bc9c7fe-1/resource/Assets0Images06eddf213-2e56-45d3-96e8-0934cbb2f598.png?sv=2017-04-17&sr=b&sig=%2F4UPsVo9TbqI08bNjfYUs0burPQDBFYqPaHkuqv1quI%3D&spr=https&se=2023-01-10T15%3A26%3A59Z&sp=r",
+    "MicrosoftTeams-image (1)": "https://docserverpwaprodwus.blob.core.windows.net/079f5a69-b072-4367-a7c3-42674bc9c7fe-1/resource/Assets0Images09c6f93d8-6cb8-4f2e-a9f2-8bd878990774.png?sv=2017-04-17&sr=b&sig=ONvqGQm8kms8yV84faK3bCKLMrXeyQCGzIYbZMR5ot0%3D&spr=https&se=2023-01-10T15%3A26%3A59Z&sp=r"
   },
   "OldLogoFileName": "jx2rrlcl.jpg",
   "OrderComponentMetadata": {
@@ -95,21 +95,17 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.271465,
+    "AnalysisLoadTime": 0.1589466,
     "ControlCount": {
       "5d8e4f98707d42eb91208e0792a438f9": 1,
       "addMedia": 1,
-      "button": 2,
-      "gallery": 2,
-      "galleryTemplate": 2,
+      "button": 3,
       "group": 1,
       "icon": 2,
       "image": 1,
-      "label": 6,
-      "rectangle": 2,
       "screen": 2
     },
-    "DeserializationLoadTime": 1.5081244,
+    "DeserializationLoadTime": 1.8061548,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
