@@ -1,10 +1,30 @@
 TelaEnvio As screen:
     BackgroundImage: ='MicrosoftTeams-image (1)'
 
+    Button6 As button:
+        BorderThickness: =0
+        Fill: =RGBA(108, 33, 8, 1)
+        Height: =140
+        Text: ="Botão"
+        Width: =328
+        X: =526
+        Y: =206
+        ZIndex: =1
+
+    Button4 As button:
+        BorderThickness: =0
+        Fill: =RGBA(108, 33, 8, 1)
+        Height: =86
+        Text: ="Botão"
+        Width: =268
+        X: =554
+        Y: =442
+        ZIndex: =2
+
     Button2 As button:
         Align: =Align.Left
         BorderThickness: =0
-        Fill: =RGBA(246, 88, 16, 1)
+        Fill: =RGBA(255, 64, 0, 1)
         Height: =86
         HoverFill: =ColorFade(Self.BorderColor, 20%)
         OnSelect: =ArmazenamentodeBlobdoAzure.CreateFile("/source/", "ComparatorSADataset.csv", UploadedImage1.Image)
@@ -13,7 +33,33 @@ TelaEnvio As screen:
         Width: =268
         X: =549
         Y: =437
-        ZIndex: =7
+        ZIndex: =3
+
+    Icon1 As icon.BackArrow:
+        Color: =RGBA(116, 116, 116, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(TelaInicial,Fade)
+        Tooltip: ="Voltar a tela inicial"
+        X: =68
+        Y: =38
+        ZIndex: =4
+
+    Icon2 As icon.Send:
+        Color: =RGBA(116, 116, 116, 1)
+        Icon: =Icon.Send
+        X: =741
+        Y: =449
+        ZIndex: =5
+
+    Button5 As button:
+        BorderThickness: =0
+        Fill: =RGBA(255, 64, 0, 1)
+        Height: =140
+        Text: ="Clique para adicionar um arquivo"
+        Width: =328
+        X: =519
+        Y: =199
+        ZIndex: =6
 
     AddMediaWithImage1 As group:
         Height: =5
@@ -27,38 +73,24 @@ TelaEnvio As screen:
             BorderStyle: =BorderStyle.None
             Height: =AddMediaButton1.Height
             Image: =If(IsBlank(AddMediaButton1.Media), SampleImage, AddMediaButton1.Media)
-            ImagePosition: =ImagePosition.Fill
+            ImagePosition: =ImagePosition.Center
+            Visible: =false
             Width: =AddMediaButton1.Width
             X: =AddMediaButton1.X
             Y: =AddMediaButton1.Y
-            ZIndex: =9
+            ZIndex: =7
 
         AddMediaButton1 As addMedia:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             ChangePictureText: ="Alterar arquivo"
             Color: =RGBA(255, 255, 255, 1)
-            Fill: =RGBA(246, 88, 16, 1)
+            Fill: =RGBA(255, 64, 0, 1)
             Height: =140
             Size: =25
             Text: ="Clique para adicionar um arquivo"
+            Visible: =false
             X: =519
             Y: =199
-            ZIndex: =10
-
-    Icon1 As icon.BackArrow:
-        Color: =RGBA(116, 116, 116, 1)
-        Icon: =Icon.BackArrow
-        OnSelect: =Navigate(TelaInicial,Fade)
-        Tooltip: ="Voltar a tela inicial"
-        X: =68
-        Y: =38
-        ZIndex: =11
-
-    Icon2 As icon.Send:
-        Color: =RGBA(116, 116, 116, 1)
-        Icon: =Icon.Send
-        X: =741
-        Y: =453
-        ZIndex: =12
+            ZIndex: =8
 

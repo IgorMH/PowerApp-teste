@@ -10,6 +10,9 @@
     "Button1": 4,
     "Button2": 11,
     "Button3": 6,
+    "Button4": 14,
+    "Button5": 15,
+    "Button6": 16,
     "Component1": 3,
     "Icon1": 8,
     "Icon2": 12,
@@ -19,7 +22,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/09/2023 15:13:55",
+  "HeaderLastSavedDateTimeUTC": "01/10/2023 17:46:48",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "17ee203a-c761-4117-9d0b-2340c80df84c": "\"/providers/microsoft.powerapps/apis/shared_azureblob/connections/42a4932411084911b0e9a8587c3ba7bd\""
@@ -30,8 +33,8 @@
     "MicrosoftTeams-image (1)": "9c6f93d8-6cb8-4f2e-a9f2-8bd878990774.png"
   },
   "LocalResourceRootPaths": {
-    "MicrosoftTeams-image": "https://docserverpwaprodwus.blob.core.windows.net/079f5a69-b072-4367-a7c3-42674bc9c7fe-1/resource/Assets0Images06eddf213-2e56-45d3-96e8-0934cbb2f598.png?sv=2017-04-17&sr=b&sig=%2F4UPsVo9TbqI08bNjfYUs0burPQDBFYqPaHkuqv1quI%3D&spr=https&se=2023-01-10T15%3A26%3A59Z&sp=r",
-    "MicrosoftTeams-image (1)": "https://docserverpwaprodwus.blob.core.windows.net/079f5a69-b072-4367-a7c3-42674bc9c7fe-1/resource/Assets0Images09c6f93d8-6cb8-4f2e-a9f2-8bd878990774.png?sv=2017-04-17&sr=b&sig=ONvqGQm8kms8yV84faK3bCKLMrXeyQCGzIYbZMR5ot0%3D&spr=https&se=2023-01-10T15%3A26%3A59Z&sp=r"
+    "MicrosoftTeams-image": "https://docserverpwaprodwus.blob.core.windows.net/02768eee-686a-48ab-9c6b-715b013eb85d-1/resource/Assets0Images06eddf213-2e56-45d3-96e8-0934cbb2f598.png?sv=2017-04-17&sr=b&sig=oQSZLDN7gXtqcvEWnHlLpWm%2B9kYO%2FCrElaFqYTCIiVk%3D&spr=https&se=2023-01-11T17%3A47%3A27Z&sp=r",
+    "MicrosoftTeams-image (1)": "https://docserverpwaprodwus.blob.core.windows.net/02768eee-686a-48ab-9c6b-715b013eb85d-1/resource/Assets0Images09c6f93d8-6cb8-4f2e-a9f2-8bd878990774.png?sv=2017-04-17&sr=b&sig=SksP%2BcZya2e3W5B9uRdpYaRMyB61spGMCKVTGTfZBWI%3D&spr=https&se=2023-01-11T17%3A47%3A27Z&sp=r"
   },
   "OldLogoFileName": "jx2rrlcl.jpg",
   "OrderComponentMetadata": {
@@ -65,6 +68,9 @@
     "Button1": {},
     "Button2": {},
     "Button3": {},
+    "Button4": {},
+    "Button5": {},
+    "Button6": {},
     "Component1": {},
     "Icon1": {},
     "Icon2": {},
@@ -75,17 +81,20 @@
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PublishOrderIndices": {
     "AddMediaButton1": 4,
-    "AddMediaWithImage1": 2,
+    "AddMediaWithImage1": 3,
     "App": 0,
-    "Button1": 7,
-    "Button2": 5,
+    "Button1": 10,
+    "Button2": 7,
     "Button3": 0,
+    "Button4": 8,
+    "Button5": 5,
+    "Button6": 6,
     "Component1": 0,
     "Icon1": 1,
-    "Icon2": 6,
+    "Icon2": 9,
     "TelaEnvio": 0,
     "TelaInicial": 0,
-    "UploadedImage1": 3
+    "UploadedImage1": 2
   },
   "ResourcesJsonIndices": {
     "Image-MicrosoftTeams-image": 1,
@@ -95,7 +104,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1589466,
+    "AnalysisLoadTime": 0.1737484,
     "ControlCount": {
       "5d8e4f98707d42eb91208e0792a438f9": 1,
       "addMedia": 1,
@@ -105,7 +114,7 @@
       "image": 1,
       "screen": 2
     },
-    "DeserializationLoadTime": 1.8061548,
+    "DeserializationLoadTime": 1.2103253,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
