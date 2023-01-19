@@ -103,7 +103,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%AddMedia.ID%",
       "Name": "AddMediaButton1",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -897,7 +897,14 @@
           "NameMapSourceSchema": "?"
         },
         "BorderColor",
-        "DisabledBorderColor",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "DisabledBorderColor",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "PressedBorderColor",
         "HoverBorderColor",
         "BorderStyle",
@@ -917,7 +924,14 @@
         },
         "DisabledFill",
         "PressedFill",
-        "HoverFill",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "ColorFade(RGBA(56, 96, 178, 1), -20%)",
+          "InvariantPropertyName": "HoverFill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Font",
         "FontWeight",
         "Align",
@@ -983,7 +997,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button5",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1928,7 +1942,14 @@
         "Y",
         "Width",
         "Height",
-        "Fill",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "RGBA(0, 0, 0, 0)",
+          "InvariantPropertyName": "Fill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "DisabledFill",
         "PressedFill",
         "HoverFill",
