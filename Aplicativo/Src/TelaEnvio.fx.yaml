@@ -6,6 +6,7 @@ TelaEnvio As screen:
         Fill: =RGBA(108, 33, 8, 1)
         Height: =140
         HoverFill: =false
+        OnSelect: =ColorFade(Self.Fill, -20%)
         Text: ="Botão"
         Width: =328
         X: =526
