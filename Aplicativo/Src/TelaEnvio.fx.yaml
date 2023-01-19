@@ -5,6 +5,7 @@ TelaEnvio As screen:
         BorderThickness: =0
         Fill: =RGBA(108, 33, 8, 1)
         Height: =140
+        HoverFill: =false
         Text: ="Botão"
         Width: =328
         X: =526
