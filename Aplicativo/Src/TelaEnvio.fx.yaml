@@ -7,6 +7,10 @@ TelaEnvio As screen:
         Height: =140
         HoverFill: =false
         OnSelect: =ColorFade(Self.Fill, -20%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Text: ="Botão"
         Width: =328
         X: =526
@@ -53,18 +57,6 @@ TelaEnvio As screen:
         Y: =449
         ZIndex: =5
 
-    Button5 As button:
-        BorderThickness: =0
-        DisabledBorderColor: =RGBA(255, 64, 0, 1)
-        Fill: =RGBA(255, 64, 0, 1)
-        Height: =140
-        HoverFill: =ColorFade(Self.Fill, 20%)
-        Text: ="Clique para adicionar um arquivo"
-        Width: =328
-        X: =519
-        Y: =199
-        ZIndex: =7
-
     AddMediaWithImage1 As group:
         Height: =5
         Width: =5
@@ -79,7 +71,6 @@ TelaEnvio As screen:
             Height: =AddMediaButton1.Height
             Image: =If(IsBlank(AddMediaButton1.Media), SampleImage, AddMediaButton1.Media)
             ImagePosition: =ImagePosition.Center
-            Visible: =false
             Width: =AddMediaButton1.Width
             X: =AddMediaButton1.X
             Y: =AddMediaButton1.Y
@@ -94,7 +85,6 @@ TelaEnvio As screen:
             Height: =140
             Size: =25
             Text: ="Clique para adicionar um arquivo"
-            Visible: =false
             X: =519
             Y: =199
             ZIndex: =8
